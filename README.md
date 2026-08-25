@@ -29,7 +29,7 @@ Quick check is to look inside the `.pdx` folder for:
 | `pdex.bin` **and** `main.pdz` | ⚠️ Hybrid, usually won't run |
 | `pdex.bin` only | ❌ C-API game, not supported |
 
----
+
 
 **Partially support** 
 
