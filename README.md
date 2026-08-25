@@ -2,10 +2,6 @@
 
 An open-source Playdate Lua runtime that runs Playdate Lua games natively on ARM64 handhelds via PortMaster. No x86 emulation (box64) or proprietary simulator required.
 
-# Playdate Runtime (PortMaster Port)
-
-Runs **Playdate** games natively on ARM64 handhelds. No simulator, no x86 emulation. An open-source reimplementation of the `playdate.*` Lua API on top of SDL2, rendering at the Playdate's 400×240 1-bit screen.
-
 ## Add Port To Handheld
 
 Download Linux SDK here https://play.date/dev/
