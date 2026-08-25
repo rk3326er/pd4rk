@@ -1,10 +1,10 @@
-# Playdate Runtime for PortMaster
+# PD4K - Runtime for PortMaster
 
 An open-source Playdate Lua runtime that runs Playdate Lua games natively on ARM64 handhelds via PortMaster. No x86 emulation (box64) or proprietary simulator required.
 
 ## Port Files
 
-Copy `playdate4rk` and `Playdate 4RK.sh` to handheld.
+Copy `playdate4rk` and `PD4RK.sh` to handheld.
 
 Put new roms in `playdate4rk/roms`.
 
