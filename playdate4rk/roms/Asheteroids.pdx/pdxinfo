@@ -1,0 +1,6 @@
+name=Asheteroids
+author=Panic, Inc. / playdate-portmaster
+description=Asteroids demo for the Playdate runtime. Arrow keys to rotate and thrust, A to shoot.
+bundleID=com.playdateportmaster.asheteroids
+version=1.0
+buildNumber=1
