@@ -4,9 +4,11 @@ An open-source Playdate Lua runtime that runs Playdate Lua games natively on ARM
 
 ## Add Port To Handheld
 
-Download Linux SDK here <https://play.date/dev/>, extract it and move `CoreLibs` into `playdate4rk` folder.
+1. Download port here https://github.com/rk3326er/pd4rk/archive/refs/heads/main.zip and extract
 
-Copy `PD4RK.sh` and `playdate4rk` folder to `ports` on your handheld.
+2. Download Linux SDK here <https://play.date/dev/>, extract it and move `CoreLibs` into `playdate4rk` folder.
+
+3. Copy `PD4RK.sh` and `playdate4rk` folder to `ports` on your handheld.
 
 
 ## Adding Games
