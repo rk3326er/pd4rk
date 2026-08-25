@@ -2,6 +2,12 @@
 
 An open-source Playdate Lua runtime that runs Playdate Lua games natively on ARM64 handhelds via PortMaster. No x86 emulation (box64) or proprietary simulator required.
 
+## Port Files
+
+Copy `playdate4rk` and `Playdate 4RK.sh` to handheld.
+
+Put new roms in `playdate4rk/roms`.
+
 ## How It Works
 
 The runtime re-implements the Playdate Lua API on top of SDL2:
@@ -84,7 +90,7 @@ unzip game.pdx.zip -d game_pdx/
 | D-pad              | D-pad            |
 | A                 | A                |
 | B                 | B                |
-| Right analog stick | Crank            |
+| Left analog stick | Crank            |
 | Select + Start    | Exit             |
 
 ## Architecture
