@@ -2,6 +2,15 @@
 
 Runs **Playdate** games natively on ARM64 handhelds. No simulator, no x86 emulation. An open-source reimplementation of the `playdate.*` Lua API on top of SDL2, rendering at the Playdate's 400×240 1-bit screen.
 
+## Add Port To Handheld
+
+Download Linux SDK here https://play.date/dev/
+
+Extract and move `CoreLibs` into `playdate4rk` folder.
+
+Copy `PD4RK.sh` and `playdate4rk` folder to `ports` on your handheld.
+
+
 ## Adding Games
 
 Drop unzipped game folders into `roms/`. Example: `ports/playdate/roms/My Game.pdx`
