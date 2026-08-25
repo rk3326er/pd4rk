@@ -36,4 +36,4 @@ Games run, but these features are silent/stubbed:
 |---|---|
 | D-pad | D-pad |
 | A / B | Ⓐ / Ⓑ |
-| Right analog stick | 🎣 Crank |
+| Left analog stick | 🎣 Crank |
