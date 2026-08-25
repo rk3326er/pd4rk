@@ -97,3 +97,4 @@ make
 - [cranksters/playdate-reverse-engineering](https://github.com/cranksters/playdate-reverse-engineering) for file format documentation
 - [TheLogicMaster/Cranked](https://github.com/TheLogicMaster/Cranked) for reference implementation
 - [PortMaster](https://portmaster.games) for the handheld gaming platform
+- https://github.com/hteumeuleu/celeste
