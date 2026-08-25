@@ -15,10 +15,7 @@ games natively on Linux/aarch64 (PortMaster handhelds). Not a git repo.
   - `SRC/corelibs/` — Panic's CoreLibs Lua sources (runtime data, loaded at
     game start) plus `__stub.lua` (full API listing, source for stub
     generation).
-- Top level is a **deployment layout**: `playdate_runtime.aarch64` /
-  `playdate_runtime.x86_64` (prebuilt binaries), `corelibs/` (identical copy
-  of `SRC/corelibs/` — keep them in sync if you edit either), `roms/`
-  (`.pdx.zip` test games).
+
 
 ## Build & run
 
