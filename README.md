@@ -39,6 +39,8 @@ Games run, but these features are silent/stubbed:
 * `playdate.video`: `.pdv` playback
 * `playdate.network`: HTTP/TCP (scoreboards etc. silently do nothing)
 
+Encrypted/DRM-protected games from the Playdate Catalog will not work.
+
 ## Controls
 
 | Handheld | Playdate |
@@ -49,7 +51,7 @@ Games run, but these features are silent/stubbed:
 
 
 
-## What Works
+## Whats Done
 
 - Lua-only Playdate games (`.luac` bytecode in `.pdz` containers)
 - Basic 2D graphics: fillRect, drawLine, drawRect, drawText, bitmaps
@@ -57,13 +59,6 @@ Games run, but these features are silent/stubbed:
 - Save data persistence via `playdate.datastore`
 - CoreLibs (sprites, animation, timers, object system, etc.)
 
-## What Doesn't Work (Yet)
-
-- C-API Playdate games (those with `pdex.bin`) — requires ARM CPU emulation, use box64+simulator instead
-- `playdate.sound.synth` — the full audio synthesis engine is stubbed
-- `playdate.video` — `.pdv` video playback not implemented
-- `playdate.network` — HTTP/TCP networking stubbed
-- Encrypted/DRM-protected games from the Playdate Catalog
 
 ## Building
 
@@ -85,15 +80,7 @@ make
 ```
 
 
-## Controls
 
-| Handheld          | Playdate         |
-|-------------------|------------------|
-| D-pad              | D-pad            |
-| A                 | A                |
-| B                 | B                |
-| Left analog stick | Crank            |
-| Select + Start    | Exit             |
 
 
 
